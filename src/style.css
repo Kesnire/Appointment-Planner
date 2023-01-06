@@ -1,0 +1,135 @@
+:root{
+--honey-yellow: #fbaf00ff;
+--cyber-yellow: #ffd639ff;
+--russian-green: #5c946eff;
+--green-sheen: #80c2afff;
+--green-blue-crayola: #1e91d6ff;
+--french-blue: #0072bbff;
+--coral: #ff8552ff;
+}
+
+html{
+    font-family: "Roboto";
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: var(--green-blue-crayola);
+    border: none;
+    border-bottom: 5px solid var(--french-blue);
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+    transition: ease-in-out 150ms;
+}
+a:hover{
+    transform: translateY(-5px) scale(1.1) rotate(5deg);
+    transition: ease-in-out 150ms;
+}
+a:active{
+    background-color: var(--french-blue);
+}
+
+body{
+    margin: 0;
+    background-color: rgb(228, 233, 240);
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.8em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+label{
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+input, select{
+    background-color: rgb(228, 233, 240);
+    border: none;
+    height: 35px;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 0 5px;
+    transition: ease-in-out 150ms;
+}
+input:focus, textarea:focus, select:focus{
+    border: none;
+    border-bottom: 5px solid rgb(54, 54, 54);
+    transition: ease-in-out 150ms;
+}
+textarea{
+    background-color: rgb(228, 233, 240);
+    font-size: 1em;
+    font-weight: 700;
+    padding: 0 5px;
+    border: none;
+    min-height: 80px;
+}
+input[type=submit]{
+    margin-top: 10px;
+    background-color: var(--cyber-yellow);
+    border: none;
+    border-bottom: 5px solid var(--honey-yellow);
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease-in-out 150ms;
+}
+input[type=submit]:hover{
+    transform: translateY(-5px) scale(1.1) rotate(5deg);
+    transition: ease-in-out 150ms;
+}
+
+form{
+    padding: 25px;
+    background-color: white;;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border-bottom: black solid 5px;
+}
+
+.tile-title{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.tile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 5px solid rgb(54,54,54);
+    border-radius: 10px;
+    width: 300px;
+}
+
+div:has(> .tile-container){
+    display: flex;
+    justify-content: space-around;
+}

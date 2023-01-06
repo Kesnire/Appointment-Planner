@@ -19,7 +19,7 @@ export const AppointmentForm = ({contacts,title,setTitle,contact,setContact,date
         <input type='date' value={date} min={getTodayString()} onChange={(e) =>{setDate(e.target.value)}} required />
       <label>Time</label>
         <input type='time' value={time} onChange={(e) =>{setTime(e.target.value)}} required />
-        <input type='submit' text='Create Appointment'/>
+        <input type='submit' value='Create Appointment'/>
     </form>
   );
 };
