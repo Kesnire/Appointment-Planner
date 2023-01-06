@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Appointment-Planner/static/css/main.2c046516.chunk.css",
-    "main.js": "/Appointment-Planner/static/js/main.b9bc09fc.chunk.js",
-    "main.js.map": "/Appointment-Planner/static/js/main.b9bc09fc.chunk.js.map",
+    "main.css": "/Appointment-Planner/static/css/main.3e1d27f2.chunk.css",
+    "main.js": "/Appointment-Planner/static/js/main.4e74faa2.chunk.js",
+    "main.js.map": "/Appointment-Planner/static/js/main.4e74faa2.chunk.js.map",
     "runtime-main.js": "/Appointment-Planner/static/js/runtime-main.1d1e0aef.js",
     "runtime-main.js.map": "/Appointment-Planner/static/js/runtime-main.1d1e0aef.js.map",
     "static/js/2.928dc1e6.chunk.js": "/Appointment-Planner/static/js/2.928dc1e6.chunk.js",
     "static/js/2.928dc1e6.chunk.js.map": "/Appointment-Planner/static/js/2.928dc1e6.chunk.js.map",
     "index.html": "/Appointment-Planner/index.html",
-    "static/css/main.2c046516.chunk.css.map": "/Appointment-Planner/static/css/main.2c046516.chunk.css.map",
+    "static/css/main.3e1d27f2.chunk.css.map": "/Appointment-Planner/static/css/main.3e1d27f2.chunk.css.map",
     "static/js/2.928dc1e6.chunk.js.LICENSE.txt": "/Appointment-Planner/static/js/2.928dc1e6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1d1e0aef.js",
     "static/js/2.928dc1e6.chunk.js",
-    "static/css/main.2c046516.chunk.css",
-    "static/js/main.b9bc09fc.chunk.js"
+    "static/css/main.3e1d27f2.chunk.css",
+    "static/js/main.4e74faa2.chunk.js"
   ]
 }
